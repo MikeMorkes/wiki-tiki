@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Freckle+Face|Inika:400,700);
+
+input:focus,
+I select:focus,
+textarea:focus,
+button:focus {
+	outline: none !important;
+}
+
+body {
+  background: #ffcc33 url("http://www.mikemorkes.com/codepen/wiki/wiki_bkgd2.png") no-repeat fixed bottom left / cover;
+  font-family: 'Inika', serif;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'Freckle Face', cursive;
+  color: #773311 !important;
+}
+
+.submit-btn {
+    font-family: 'Freckle Face', cursive;
+  font-size: 30px !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.topper {
+  margin-top: 25px;
+}
+
+.topper2 {
+  margin-top: 55px;
+}
+
+.wiki1 {
+  background: #ffcc33 url("http://www.mikemorkes.com/codepen/wiki/wiki_bkgd1.png") no-repeat fixed top left / cover;
+}
+
+.wiki2 {
+  color: #fff;
+  display: none;
+}
+
+.random {
+  background: #773311 !important;
+  border: 1px solid #773311;
+}
+
+.random:hover {
+  background: #471f0a !important;
+  border: 1px solid #471f0a;
+}
+
+.btn-width {
+  width: 100%;
+  min-width: 360px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width:767px) {
+  .img-restraint {
+    display: none;
+  }
+}
+
+@media only screen and (min-width:768px) {
+  .tiki-rect {
+    display: none;
+  }
+}
+
+#clear {
+  margin-bottom: 30px;
+}
