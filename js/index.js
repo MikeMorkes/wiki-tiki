@@ -2,6 +2,10 @@
 $(document).ready(function() {
   $(".wiki2").addClass("animated slideInUp");
   $(".jumbotron").addClass("animated slideInDown");
+  
+	// Play audio
+	var audio = new Audio('../wiki-tiki/sounds/jungle2.mp3');
+	audio.play();	 
 
 });
 
