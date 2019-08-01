@@ -8,7 +8,7 @@ button:focus {
 }
 
 body {
-  background: #ffcc33 url("http://www.mikemorkes.com/codepen/wiki/wiki_bkgd2.png") no-repeat fixed bottom left / cover;
+  background: #ffcc33 url("../img/wiki_bkgd2.png") no-repeat fixed bottom left / cover;
   font-family: 'Inika', serif;
   font-weight: normal;
 }
@@ -36,7 +36,7 @@ h1 {
 }
 
 .wiki1 {
-  background: #ffcc33 url("http://www.mikemorkes.com/codepen/wiki/wiki_bkgd1.png") no-repeat fixed top left / cover;
+  background: #ffcc33 url("../img/wiki_bkgd1.png") no-repeat fixed top left / cover;
 }
 
 .wiki2 {
