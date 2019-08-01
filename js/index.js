@@ -4,7 +4,8 @@ $(document).ready(function() {
   $(".jumbotron").addClass("animated slideInDown");
   
 	// Play audio
-	var audio = new Audio('../wiki-tiki/sounds/jungle2.mp3');
+	//var audio = new Audio('../wiki-tiki/sounds/jungle2.mp3');
+	var audio = new Audio('../wiki-tiki/sounds/jungletheme.wav');
 	audio.play();	 
 
 });
